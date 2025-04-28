@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#hero{
+    display: flex;
+    height: 550px;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px rgb(214, 214, 214) solid;
+    padding-top:40px;
+    border-radius: 10px;
+    box-shadow: inset -10px -5px 20px rgb(131, 129, 129),.3px .3px rgb(128, 128, 128);
+}
+
+#calculator{
+    display: flex;
+    margin: 0 20px;
+    margin-bottom: 10px;
+    
+}
+
+#display{
+    height: 50px;
+    width: 75%;
+    border: 1px rgb(131, 129, 129) solid;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: inset 2px 2px 5px rgb(131, 129, 129);
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.buttons button{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(228, 218, 218), rgb(194, 194, 213));
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow:.5px .5px rgba(228, 218, 218, 0.397);
+}
+
+
+.buttons #plus{
+    height: 120px;
+    border-radius: 10px ;
+}
