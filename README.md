@@ -69,3 +69,4 @@ Edit
 cd calculator
 Open the index.html file in any web browser to see the calculator in action.
 
+![image](https://github.com/user-attachments/assets/a711601a-4af2-4d22-919f-7445ae56c054)
